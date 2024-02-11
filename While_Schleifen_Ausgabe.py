@@ -99,3 +99,24 @@ i = 225
 while i >= 0:
     print(i)
     i = i / (-3) 
+
+
+sequenz = [225,  196,  169,  144,  121,  100,  81,  64,  49,  36,  25,  16,  9,  4,  1,  0,  1,  4,  9,  16,  25,  36,  49,  64,  81,  100,  121,  144,  169,  196,  225]
+index =  0
+while index < len(sequenz):
+    print(sequenz[index])
+    if sequenz[index] ==  0:
+        break
+    else:
+        index +=  1
+```
+
+Für die zweite Sequenz:
+
+```python
+sequenz = [225,  224,  221,  216,  209,  200,  189,  176,  161,  144,  125,  104,  81,  56,  29,  0]
+index =  0
+while index < len(sequenz):
+    print(sequenz[index])
+    index +=  1
+```
